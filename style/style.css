@@ -64,15 +64,6 @@ section#viagens{
     background-color: rgb(230, 89, 119);
     height: fit-content;
 }
-section#canoa-quebrada{
-    background-image: url('../midia/viagens/eu-el-pordosol.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position:center center;
-    width: 50vw;
-    height: 50vh;
-}
 /*FIM DA TELA DE VIAGENS*/
 section#perca-postura{
     background-color: rgb(231, 64, 100);
