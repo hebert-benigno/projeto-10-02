@@ -9,7 +9,7 @@ section#tela-apresentacao{
     background-image:linear-gradient(to bottom, rgb(206, 114, 122, 0.5), rgb(218, 155, 160, 0.5), rgb(233, 194, 197, 0.5)), url('../midia/fundo-inicio-grande.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: right center;
     height: 100vh;
     display: flex;
