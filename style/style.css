@@ -3,7 +3,14 @@
     margin: 0px;
     box-sizing: border-box;
     font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif
 }
+ 
+p{
+    line-height: 1.5em;
+    text-indent: 0.9em;
+    margin: 10px ;
+} 
 
 section#tela-apresentacao{
     background-image:linear-gradient(to bottom, rgb(206, 114, 122, 0.5), rgb(218, 155, 160, 0.5), rgb(233, 194, 197, 0.5)), url('../midia/fundo-inicio-grande.png');
@@ -50,10 +57,25 @@ section#tela-apresentacao p{
 }
 /*FIM DA TELA DE INICIO*/
 
-section#nosso-comeco{
+section#comeco{
     background-color: rgb(233, 113, 139);
     height: fit-content;
+    border-top: 0.2px solid rgb(245, 180, 194);
+    display: flex;
+    flex-direction: column;
 }
+
+#comeco > h1{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
 /*FIM DA TELA DE COMEÇO*/
 section#momentos-juntos{
     background-color: rgb(223, 95, 123);
