@@ -74,6 +74,7 @@ section#comeco{
     display: flex;
     flex-direction: column;
     margin: 1vw 3vw 0 3vw;
+    border-radius: 5px
 }
 
 #comeco > h2{
