@@ -17,6 +17,15 @@ p{
     margin: 10px ;
 } 
 
+.datas{
+    background-image: linear-gradient(to right, #A65179, #C5849C, #d3a1b3, #e6ccd6,transparent);
+    color: rgb(56, 39, 39);
+    margin-left: 40px;
+    padding-left: 15px;
+    border-radius: 50px;
+    width: 15vw;
+    font-size: 25px;
+}
 
 header{
     background-image:linear-gradient(to bottom, rgb(206, 114, 122, 0.5), rgb(218, 155, 160, 0.5), rgb(233, 194, 197, 0.5)), url('../midia/fundo-inicio-grande.png');
