@@ -22,7 +22,7 @@ p{
 } 
 
 
-section#tela-apresentacao{
+header{
     background-image:linear-gradient(to bottom, rgb(206, 114, 122, 0.5), rgb(218, 155, 160, 0.5), rgb(233, 194, 197, 0.5)), url('../midia/fundo-inicio-grande.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,13 +36,15 @@ section#tela-apresentacao{
     text-align: center;
     color:rgb(56, 39, 39);
 }
-section nav{
+
+header nav{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 35px;
 }
-section nav a{
+
+header nav a{
     color: rgba(56, 39, 39, 0.76);
     text-decoration: none;
     padding: 0px 10px;
@@ -50,31 +52,31 @@ section nav a{
     margin: 0vw 0.2vw;
     border-radius: 8px;
 }
-section nav a:hover{
+header nav a:hover{
     color:rgba(240, 248, 255, 0.822);
     background-color: rgba(82, 29, 43, 0.623);
     transition: 1.3s;
 }
-section#tela-apresentacao h1{
+header #tela-apresentacao h1{
     font-size: 9vw;
     text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
 }
-section#tela-apresentacao h2{
+header #tela-apresentacao h2{
     font-size: 15px;
     padding: 0px 10px;
 }
-section#tela-apresentacao p{
+header #tela-apresentacao p{
     font-size: 1.3em;
 }
 /*FIM DA TELA DE INICIO*/
 
-section#comeco{
+main{
     background-color: #F0DCE5;
     height: fit-content;
     display: flex;
     flex-direction: column;
     margin: 1vw 3vw 0 3vw;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 #comeco > h2{
@@ -90,24 +92,20 @@ section#comeco{
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.185);
 }
 
-
-
-
-
-
-
-/*FIM DA TELA DE COMEÇO*/
-section#momentos-juntos{
-    background-color: rgb(223, 95, 123);
-    height: fit-content;
+#comeco > #indo-pra-baleia{
+    background-color: #6d334e;
+    float:right;
+    margin-left:20px;
+    margin-right: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    display: flex;
+    width: 70%;
 }
-/*FIM DA TELA DE MOMENTOS*/
-section#viagens{
-    background-color: rgb(230, 89, 119);
-    height: fit-content;
+
+#comeco > #indo-pra-baleia > img{
+    width: 50%;
+    margin: auto;
 }
-/*FIM DA TELA DE VIAGENS*/
-section#perca-postura{
-    background-color: rgb(231, 64, 100);
-    height: fit-content;
-}
+
