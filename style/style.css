@@ -18,13 +18,14 @@ p{
 } 
 
 .datas{
-    background-image: linear-gradient(to right, #A65179, #C5849C, #d3a1b3, #e6ccd6,transparent);
+    background-image: linear-gradient(to right, #bb678e, #cf96ab, #dfb2c2, #e6ccd6,transparent);
     color: rgb(56, 39, 39);
     margin-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 15px;
     border-radius: 50px;
-    width: 15vw;
-    font-size: 25px;
+    width: 270px;
 }
 
 header{
