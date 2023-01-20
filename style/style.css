@@ -1,9 +1,5 @@
 
 
-:root{
-    
-}
-
 *{
     padding: 0px;
     margin: 0px;
@@ -73,9 +69,9 @@ header #tela-apresentacao p{
 main{
     background-color: #F0DCE5;
     height: fit-content;
-    display: flex;
+    display: flex;  
     flex-direction: column;
-    margin: 1vw 3vw 0 3vw;
+    margin: 1vw 3vw 1vw 3vw;
     border-radius: 5px;
 }
 
@@ -92,20 +88,6 @@ main{
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.185);
 }
 
-#comeco > #indo-pra-baleia{
-    background-color: #6d334e;
-    float:right;
-    margin-left:20px;
-    margin-right: 5px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    display: flex;
-    width: 70%;
+#aniversario{
+    
 }
-
-#comeco > #indo-pra-baleia > img{
-    width: 50%;
-    margin: auto;
-}
-
