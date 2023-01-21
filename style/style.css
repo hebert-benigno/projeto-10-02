@@ -85,6 +85,11 @@ main{
     border-radius: 5px;
 }
 
+#comeco{
+    display: flex;
+    flex-direction: column;
+}
+
 #comeco > h2{
     text-align: center;
     color: #6d334e;
@@ -98,6 +103,15 @@ main{
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.185);
 }
 
-#aniversario{
-    
+#comeco > #primeiro-dejaneiro{
+    display: block;
+    flex-direction: row;
+}
+
+#comeco > #primeiro-de-janeiro > img{
+    display: block;
+    padding: 0px 5px 5px 8px;
+    margin: auto;
+    max-width: 230px;
+    float: right;
 }
