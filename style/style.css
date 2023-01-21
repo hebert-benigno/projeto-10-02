@@ -110,8 +110,10 @@ main{
 
 #comeco > #primeiro-de-janeiro > img{
     display: block;
-    padding: 0px 5px 5px 8px;
-    margin: auto;
-    max-width: 230px;
-    float: right;
+   padding: 0px 5px 5px 8px;
+   padding: 20px;
+   margin: auto;
+   max-width: 50%;
+   float: right;
 }
+
