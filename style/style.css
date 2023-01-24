@@ -83,10 +83,6 @@ section #tela-apresentacao{
     position: relative;
 }
 
-header div#menu{
-    background-color: aqua;
-}
-
 header nav{
     position: absolute;
     top: 3.5%;
@@ -96,8 +92,8 @@ header nav{
     background-color: rgba(255, 255, 255, 0.3);
     text-align: right;
     line-height: 1;
-    backdrop-filter: blur(5px);
-    width: 98.8vw;
+    backdrop-filter: blur(7px);
+    width: 100%;
     max-height: fit-content;
     padding: 15px;
 }
@@ -110,12 +106,14 @@ header nav a{
     font-size: 1.2em;
     margin: 0vw 0.2vw;
     border-radius: 7px;
+    padding: 4px;
 }
 header nav a:hover{
     color:rgb(219, 231, 241);
     transition: 0.5s;
     color: black;
-    background-color: rgba(211, 208, 208, 0.5);
+    background-color: rgba(211, 208, 208, 0.253);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.158);
 }
 header #tela-apresentacao h1{
     font-size: 9vw;
