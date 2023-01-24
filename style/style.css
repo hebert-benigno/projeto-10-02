@@ -59,12 +59,12 @@ header h1{
     font-family: var(--font2);
 }
 
-header nav{
+/*header nav{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 35px;
-}
+}*/
 
 /*BLUR 
     background-color: rgba(255, 255, 255, 0.3);
@@ -84,36 +84,39 @@ section #tela-apresentacao{
 }
 
 header nav{
+    display: flex;
+    text-align: right;
     position: absolute;
     top: 3.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.3);
-    text-align: right;
     line-height: 1;
     backdrop-filter: blur(7px);
     width: 100%;
     max-height: fit-content;
-    padding: 15px;
+    padding: 20px;
 }
 
 header nav a{
     font-family: var(--font3);
     color: #2b1f1f;
     text-decoration: none;
-    padding: 0px 5px;
+    padding: 8px;
     font-size: 1.2em;
     margin: 0vw 0.2vw;
     border-radius: 7px;
-    padding: 4px;
+    box-sizing: border-box;
 }
+
 header nav a:hover{
-    color:rgb(219, 231, 241);
-    transition: 0.5s;
     color: black;
+    transform: translate(-3px,-3px);
     background-color: rgba(211, 208, 208, 0.253);
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.158);
+    transition: 0.5s;
+    border: 1px solid white;
 }
 header #tela-apresentacao h1{
     font-size: 9vw;
