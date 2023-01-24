@@ -29,7 +29,7 @@ p{
 
 .datas{
     background-image: linear-gradient(to right, #bb678e, #cf96ab, #dfb2c2, #e6ccd6,transparent);
-    color: rgb(56, 39, 39);
+    color: #3d2530;
     margin-left: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -65,7 +65,7 @@ header nav{
 }
 
 header nav a{
-    color: rgba(56, 39, 39, 0.76);
+    color: rgba(56, 39, 39, 0.761);
     text-decoration: none;
     padding: 0px 10px;
     font-size: 1.4em;
@@ -74,7 +74,7 @@ header nav a{
 }
 header nav a:hover{
     color:rgba(240, 248, 255, 0.822);
-    background-color: rgba(82, 29, 43, 0.623);
+    background-color: #521d2b9f;
     transition: 1.3s;
 }
 header #tela-apresentacao h1{
@@ -112,7 +112,7 @@ main p{
 #comeco > h2{
     text-align: center;
     color: #6d334e;
-    background-color: rgb(243, 161, 191);
+    background-color: #f3a1bf;
     padding: 5px 10px 5px 10px;
     margin-top: 0.2vw;
     margin-left: 10px;
@@ -135,6 +135,24 @@ main p{
     margin-left: 10px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.514);
 }
+
+#aniversario{
+    display: block;
+    flex-direction: column;
+}
+
+#aniversario > div#capa-aniversario{
+    display: flex;
+}
+
+#aniversario > div#capa-aniversario > img{
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: 1px;
+    background-image: radial-gradient();
+}
+
 
 #depois-do-pedido{
     display: block;
