@@ -91,7 +91,7 @@ section #tela-apresentacao{
     position: relative;
 }
 
-header nav{
+header div#menu nav{
     display: flex;
     text-align: right;
     position: absolute;
@@ -109,7 +109,7 @@ header nav{
     padding-bottom: 5px;
 }
 
-header nav a{
+header div#menu > nav > a{
     font-family: var(--font3);
     color: #2b1f1f;
     text-decoration: none;
@@ -120,7 +120,7 @@ header nav a{
     box-sizing: border-box;
 }
 
-header nav a:hover{
+header div#menu > nav > a:hover{
     color: white;
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.568);
     transform: translate(-3px,-3px);
@@ -138,7 +138,7 @@ header #tela-apresentacao h1{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-div#data-cabecalho{
+nav#data-cabecalho{
     background-color: rgba(253, 238, 238, 0.288);
     display: block;
     text-align: center;
@@ -148,11 +148,15 @@ div#data-cabecalho{
     box-shadow: 0px 0px 16px rgb(236, 208, 208);
 }
 
-div#data-cabecalho > p{
+nav#data-cabecalho a{
+    text-decoration: none;
     font-size: 1.3em;
-    margin-right: 25px;
     color: white;
     text-shadow: 2px 1px 5px rgb(236, 208, 208);
+}
+
+nav#data-cabecalho:hover{
+    background-color:aquamarine;
 }
 
 header #tela-apresentacao h2{
