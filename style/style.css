@@ -18,7 +18,16 @@
  
 body{
     background-color: #dab4c5;
+    display: flex;
+    flex-direction:column;
 }
+
+main{
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+}
+
 
 .momento{
     margin-top: 30px;
@@ -261,4 +270,23 @@ main p{
     float: left;
     margin-left: 10px;
     margin-right: 5px;
+}
+
+#dezembro{
+    display: block;
+    flex: row;
+}
+
+#dezembro > img#eu-ela{
+    display: block;
+    max-width: 60%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+
+#dezembro > img{
+    display: block;
+    max-width: 96%;
+    margin: auto;
 }
