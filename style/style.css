@@ -18,16 +18,8 @@
  
 body{
     background-color: #dab4c5;
-    display: flex;
-    flex-direction:column;
+    display: block;
 }
-
-main{
-    max-width: 800px;
-    min-width: 300px;
-    margin: auto;
-}
-
 
 .momento{
     margin-top: 30px;
@@ -179,9 +171,11 @@ header #tela-apresentacao h2{
 main{
     background-color: #F0DCE5;
     height: fit-content;
-    display: flex;  
-    flex-direction: column;
-    margin: 1vw 3vw 1vw 3vw;
+    display: block;  
+    margin: 10px auto;
+    padding-top: 10px;
+    max-width: 800px;
+    min-width: 300px;
     border-radius: 5px;
     box-shadow: 1.5px 1px 5px 2px rgba(0, 0, 0, 0.185);
 }
