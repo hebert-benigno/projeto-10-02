@@ -12,17 +12,24 @@ body{
     flex-direction: column;
 }
 
-header{
-   
+header nav{
+    margin-top: 5px;
 }
 
-header nav {
-    
+header nav a{
+    margin-left: 10px;
 }
 
 header nav img{
-    width: 25px;
-    padding:3px;
+    background-color: #ffffffa9;
+    border-radius: 50%;
+    width: 40px;
+    padding:10px;
+}
+
+header nav img:hover{
+    transform: translate(-3px, -3px);
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -30,6 +37,9 @@ main{
     max-width: 800px;
     min-width: 300px;
     margin: 20px auto;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
 }
 
 main h1{
@@ -40,4 +50,6 @@ main h1{
 main p{
     margin-top: 1em;
     line-height: 1.4em;
+    margin-left: 20px;
+    margin-right: 20px;
 }
