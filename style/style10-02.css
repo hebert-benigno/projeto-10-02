@@ -34,8 +34,9 @@ header nav img:hover{
 
 
 main{
-    max-width: 800px;
-    min-width: 300px;
+    /*max-width: 800px;
+    min-width: 300px;*/
+    width: 70vw;
     margin: 20px auto;
     backdrop-filter: blur(20px);
     background-color: rgba(255, 255, 255, 0.3);
@@ -44,6 +45,7 @@ main{
 
 main h1{
     margin-bottom: 15px;
+    margin-top: 20px;
     text-align: center;
 }
 
