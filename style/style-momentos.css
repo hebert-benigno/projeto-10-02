@@ -5,45 +5,46 @@
 }
 
 body{
-    background-color: black;
+    background: linear-gradient(135deg, #CCFBFF, #EF96C5);
     position: relative;
-    height: 100vh;
 }
 
 /*SO PRA DIFERENCIAR*/
 
 
-header nav ul img{
+main nav ul img{
     width: 30px;
     /*background-color: rgba(255, 255, 255, 0.637);*/
-    background: linear-gradient(135deg, pink, lightblue);
+    background: rgba(255, 255, 255, 0.486);
     border-radius: 50%;
     padding: 5px;
     margin-left: 5px;
     margin-top: 5px;
 }
 
-header nav ul img:hover{
-    transform: translate(-2px, -2px);
-    background: linear-gradient(135deg, rgb(252, 224, 228), rgb(205, 229, 236));
-    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.774);
+main nav ul img:hover{
+    background-color: #ffffffc7;
+    transform: translate(-3px, -3px);
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.5);
 }
 
 
 main{
     /*background-color: rgba(255, 255, 255, 0.171);*/
-    background-color: rgb(211, 247, 247);
-    width: 90vw;
+
+    width: fit-content;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff54;
 }
 
 #mural img{
     width: 100%;
     display: block;
     margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 20px;
 }
 
 
